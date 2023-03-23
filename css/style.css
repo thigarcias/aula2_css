@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header{
+    background-color: black;
+    border-bottom: 3px solid #32b9cd;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.header .container {
+    justify-content: space-between;
+
+}
+
+.titulo{
+    color: #32b9cd;
+    font-weight: 500;
+}
+
+.navbar{
+    display: flex;
+    width: 270px;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.navbar li, .navbar a {
+    color: goldenrod;
+    text-decoration: none;
+}
+
+/* Banner */
+.banner {
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+}
+
+.banner .container {
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner p {
+    width: 280px;
+    font-size: 36px;
+    color: wheat;
+}
+
+.banner span{
+    font-weight: 800;
+}
+
+/* Missão, visão e valores*/
+.boxes{
+    display: flex;
+    gap: 10px;
+
+}
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+
+
+}
+.box img{
+   width: 170px;
+
+ 
+}
