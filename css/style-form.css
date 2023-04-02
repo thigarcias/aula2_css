@@ -1,18 +1,17 @@
-.formulario {
+.formulario{
     background-color: antiquewhite;
     display: flex;
     flex-direction: column;
-    color: #CE447f;
-    padding: 10px;
-    border-radius: 5px;
+    color: #ce477f;
     padding: 30px;
+    border-radius: 5px;
 }
 
 .formulario h4 {
     margin: 0;
 }
 
-.formulario .formularioola {
+#saudacao {
     font-size: 25px;
     margin-bottom: 20px;
     align-self: center;
@@ -22,17 +21,17 @@
     border: 2px solid #32b9cd;
     border-radius: 5px;
     margin-bottom: 10px;
-    padding: 3px 3px;
+    padding: 3px 2px;
 }
 
 .formulario button {
-    color: white;
-    font-weight: bold;
-    border: 0;
-    background-color: #CE447f;
+    background-color: #ce477f;
     border-radius: 5px;
+    color: white;
     width: 100px;
-    height: 50px;
+    border: 0;
+    padding: 3px 0;
     align-self: center;
     cursor: pointer;
 }
+
